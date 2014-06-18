@@ -44,7 +44,7 @@ df_data.meanOrStd <- df_data[, c(1:2, 2+filter_meanOrStd)]   ## get subset of da
 # 3. Uses descriptive activity names to name the activities in the data set
  
 df_data.meanOrStd[, "activityNum"] <- sapply(df_data.meanOrStd$activityNum, function(s) {df_activities[s, 2]}) ## translate activity
-colnames(df_data.meanOrStd)[3] <- "activityStr"
+colnames(df_data.meanOrStd)[2] <- "activityStr"
 
 
 # 4. Label the data set with descriptive variable names. 
