@@ -9,6 +9,8 @@ Variables in the new data set:
 - Subject: An identifier of the subject who carried out the experiment. Its range is from 1 to 30. 
 - Activity: activity performed when measuring the data (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
 The remaining variables contain the average (mean) of the measured time and frequency domain variables for each activity and each subject.
+The acceleration signal from the smartphone accelerometer is in standard gravity units 'g'.
+The units for the angular velocity vector measured by the gyroscope is radians/second. 
 The following abbreviations are used in these variable names:
 * The prefix 't' denotes time
 * The prefix 'f' indicate frequency domain signals.
